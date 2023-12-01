@@ -1,0 +1,49 @@
+ENG
+
+This object detection program was created using openCV, YOLO, and python.
+In addition, YOLO uses a convolutional neural network (CNN), which speeds up the process.
+
+How to use
+1 Make sure you have python3.10 or python3.11.
+   If python3.12, python3.13, or a version less than python3.10 is installed, uninstall it and then install python3.10 or python3.11.
+
+2 Execute the following two commands on the command line using the "pip" command.
+　pip install ultralytics
+  pip install opencv-python
+
+3 After the above commands are executed, put any images into the "testphotos" folder.
+   Or, use images in the "testphotos" folder.
+
+4 Copy the path of the image you want to use. ex) test-1.jpg ← copy
+
+5 Paste the path you just copied into the "test-1.jpg" section of model("testphotos/test- 1.jpg",save=True) in the file "yolo-test.py".
+
+6 Go to the folder "yolo-test" containing the program and type "python yolo-test.py" on the command line to run the program.
+
+7 After execution, a folder named "runs" is created, and the detected images are output in the folder "predict(x)" in the folder.
+
+Cautions
+Due to compatibility issues with ultralytics, please use python 3.11 or 3.10 to run the simulation.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+JPN
+
+この物体検出プログラムはopenCV,YOLO,pythonを用いて作成されている。
+また、YOLOは畳み込みニューラルネットワーク(CNN)を使用しているため、処理が高速化されている。
+
+使い方
+1 python3.10かpython3.11が入っていることを確認する。
+   python3.12やpython3.13,python3.10未満のバージョンがインストールされている　場合、アンインストール後、python3.10かpython3.11をインストールする。
+2 "pip"コマンドを用いて、下記の2つのコマンドをコマンドラインで実行する。
+　・pip install ultralytics
+    ・pip install opencv-python
+3 上記のコマンドが実行出来たら、"testphotos"フォルダーに任意の画像を入れる。
+   または、”testphotos"のフォルダー内の画像を使用する。
+4 使用したい画像のpathをコピーする。ex) test-1.jpg ←コピー
+5 "yolo-test.py"というファイルの model("testphotos/test-　　1.jpg",save=True) の test-1.jpg の部分に先ほどコピーしたpathをペーストする
+6  プログラムの入ったフォルダ"yolo-test"へ移動し、コマンドラインで "python yolo-test.py" と入力で実行。
+7 実行後、"runs"というフォルダが作成されるので、そのフォルダの中のpredict(x)というフォルダ内に検出後の画像が出力されている。
+
+注意点
+ultralyticsの互換性の問題上、python3.11 or 3.10を使用して実行してください。
